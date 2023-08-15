@@ -26,15 +26,15 @@ export const navLinks = [
   },
   {
     id: "CCTV",
-    title: "Camaras",
+    title: "Cámaras",
   },
   {
     id: "red",
     title: "Redes",
   },
   {
-    id: "Acceso",
-    title: "Acceso",
+    id: "Blog",
+    title: "Blog",
   },
 ];
 

@@ -3,13 +3,19 @@ import { useState } from "react";
 import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
 
+import ButtonAccess from "./ButtonAccess";
+
 const Navbar = () => {
   const [active, setActive] = useState("Home");
   const [toggle, setToggle] = useState(false);
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img src={logo} alt="hoobank" className="w-[124px] h-[32px]" />
+      <img
+        src={logo}
+        alt="hoobank"
+        className="w-[164px] h-[84px]"
+      />
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
@@ -53,6 +59,7 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
+      <ButtonAccess styles={`ml-10`} />
     </nav>
   );
 };
