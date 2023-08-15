@@ -21,16 +21,20 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "alarmas",
+    title: "Alarmas",
   },
   {
-    id: "product",
-    title: "Product",
+    id: "CCTV",
+    title: "Camaras",
   },
   {
-    id: "clients",
-    title: "Clients",
+    id: "red",
+    title: "Redes",
+  },
+  {
+    id: "Acceso",
+    title: "Acceso",
   },
 ];
 
