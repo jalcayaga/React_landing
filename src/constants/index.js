@@ -67,7 +67,7 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Desde que instalamos su sistema de cámaras, nuestra tranquilidad se ha multiplicado. Siempre protegidos.",
+      "Desde que instalamos su sistema de cámaras, nuestra tranquilidad se ha multiplicado..🥰",
     name: "María Rodríguez",
     title: "Cliente particular",
     img: people01,
@@ -75,7 +75,7 @@ export const feedback = [
   {
     id: "feedback-2",
     content:
-      "La alarma que nos proporcionaron brinda seguridad y paz mental, permitiéndonos dormir sin preocupaciones.",
+      "La alarma que nos proporcionaron brinda seguridad y paz mental, permitiéndonos 😴 sin preocupaciones.",
     name: "Juan Pérez",
     title: "Vecino Villa Wilson",
     img: people02,
@@ -83,7 +83,7 @@ export const feedback = [
   {
     id: "feedback-3",
     content:
-      "Gracias al software a medida que implementaron, nuestra empresa es más eficiente y productiva.",
+      "Gracias 🙏 al software a medida que implementaron, nuestra empresa es más eficiente y productiva ✔",
     name: "Luis González",
     title: "TI Manager",
     img: people03,
