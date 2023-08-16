@@ -14,7 +14,7 @@ const Navbar = () => {
       <img
         src={logo}
         alt="SubRed Ingeniería"
-        className="w-[194px] h-[84px]"
+        className="w-[174px] h-[84px]"
       />
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
