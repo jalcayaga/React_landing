@@ -13,8 +13,8 @@ const Navbar = () => {
     <nav className="w-full flex py-6 justify-between items-center navbar">
       <img
         src={logo}
-        alt="hoobank"
-        className="w-[164px] h-[84px]"
+        alt="SubRed Ingeniería"
+        className="w-[204px] h-[84px]"
       />
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">

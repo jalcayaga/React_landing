@@ -15,6 +15,7 @@ import {
   star,
 } from "../assets";
 
+/* color #84bd00 */
 export const navLinks = [
   {
     id: "home",
@@ -42,23 +43,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Seguridad Completa",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Tu hogar y comunidad están en buenas manos. Implementamos medidas proactivas para proteger lo que más amas, brindándote tranquilidad las 24 horas del día.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Tranquilidad Absoluta",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Nuestro avanzado sistema de alarmas te asegura que tu familia y tus pertenencias estén protegidas en todo momento. Descansa con la certeza de que estás seguro.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Alertas Inmediatas",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Recibe notificaciones instantáneas ante cualquier actividad sospechosa. Nuestro sistema de alarma te mantiene informado para que puedas tomar medidas rápidas y eficaces.",
   },
 ];
 
@@ -66,25 +67,25 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
+      "Desde que instalamos su sistema de cámaras, nuestra tranquilidad se ha multiplicado. Siempre protegidos.",
+    name: "María Rodríguez",
+    title: "Cliente particular",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+      "La alarma que nos proporcionaron brinda seguridad y paz mental, permitiéndonos dormir sin preocupaciones.",
+    name: "Juan Pérez",
+    title: "Vecino Villa Wilson",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
+      "Gracias al software a medida que implementaron, nuestra empresa es más eficiente y productiva.",
+    name: "Luis González",
+    title: "TI Manager",
     img: people03,
   },
 ];
@@ -109,43 +110,43 @@ export const stats = [
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Enlaces Útiles",
     links: [
       {
-        name: "Content",
+        name: "Contenido",
         link: "https://www.hoobank.com/content/",
       },
       {
-        name: "How it Works",
+        name: "Cómo Funciona",
         link: "https://www.hoobank.com/how-it-works/",
       },
       {
-        name: "Create",
+        name: "Crear",
         link: "https://www.hoobank.com/create/",
       },
       {
-        name: "Explore",
+        name: "Explorar",
         link: "https://www.hoobank.com/explore/",
       },
       {
-        name: "Terms & Services",
+        name: "Términos y Servicios",
         link: "https://www.hoobank.com/terms-and-services/",
       },
     ],
   },
   {
-    title: "Community",
+    title: "Comunidad",
     links: [
       {
-        name: "Help Center",
+        name: "Centro de Ayuda",
         link: "https://www.hoobank.com/help-center/",
       },
       {
-        name: "Partners",
+        name: "Socios",
         link: "https://www.hoobank.com/partners/",
       },
       {
-        name: "Suggestions",
+        name: "Sugerencias",
         link: "https://www.hoobank.com/suggestions/",
       },
       {
@@ -153,20 +154,20 @@ export const footerLinks = [
         link: "https://www.hoobank.com/blog/",
       },
       {
-        name: "Newsletters",
+        name: "Boletines",
         link: "https://www.hoobank.com/newsletters/",
       },
     ],
   },
   {
-    title: "Partner",
+    title: "Socios",
     links: [
       {
-        name: "Our Partner",
+        name: "Nuestros Socios",
         link: "https://www.hoobank.com/our-partner/",
       },
       {
-        name: "Become a Partner",
+        name: "Conviértete en Socio",
         link: "https://www.hoobank.com/become-a-partner/",
       },
     ],
@@ -177,40 +178,21 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/subred.cl/",
   },
   {
     id: "social-media-2",
     icon: facebook,
-    link: "https://www.facebook.com/",
+    link: "https://www.facebook.com/subred.cl",
   },
   {
     id: "social-media-3",
     icon: twitter,
-    link: "https://www.twitter.com/",
+    link: "https://www.twitter.com/SubRed_cl",
   },
   {
     id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/",
-  },
-];
-
-export const clients = [
-  {
-    id: "client-1",
-    logo: airbnb,
-  },
-  {
-    id: "client-2",
-    logo: binance,
-  },
-  {
-    id: "client-3",
-    logo: coinbase,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
+    link: "https://www.linkedin.com/company/subred-eirl/",
   },
 ];
