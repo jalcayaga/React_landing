@@ -6,10 +6,6 @@ import {
   instagram,
   linkedin,
   twitter,
-  airbnb,
-  binance,
-  coinbase,
-  dropbox,
   send,
   shield,
   star,
@@ -22,16 +18,17 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "alarmas",
-    title: "Alarmas",
-  },
-  {
-    id: "CCTV",
+    id: "Camaras",
     title: "Cámaras",
   },
   {
-    id: "red",
-    title: "Redes",
+    id: "alarmas",
+    title: "Alarmas",
+  },
+
+  {
+    id: "software",
+    title: "Software",
   },
   {
     id: "Blog",
@@ -94,7 +91,7 @@ export const stats = [
   {
     id: "stats-1",
     title: "Clientes Felices",
-    value: "28000+",
+    value: "28200+",
   },
   {
     id: "stats-2",
@@ -104,7 +101,7 @@ export const stats = [
   {
     id: "stats-3",
     title: "Cámaras Instaladas",
-    value: "5000+",
+    value: "5300+",
   },
 ];
 

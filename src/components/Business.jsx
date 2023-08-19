@@ -1,6 +1,7 @@
 import { features } from "../constants";
 import styles, { layout } from "../style";
 import Button from "./Button";
+import { axpro } from "../assets";
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div
@@ -38,13 +39,13 @@ const Business = () => (
         Deja la seguridad
         <br className="sm:block hidden" /> en nuestras manos.
       </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Con nuestro avanzado sistema de alarmas, podrás cuidar de tu hogar o
-        comunidad como nunca antes. Obtén la paz mental que mereces al proteger
-        lo que más valoras.
-      </p>
+      <img
+        src={axpro}
+        alt="Alarmas"
+        className="w-[100%] h-[40%]"
+      />
 
-      <Button styles={`mt-10`} />
+      <Button styles={`mt-10 flexCenter`} />
     </div>
 
     <div className={`${layout.sectionImg} flex-col`}>

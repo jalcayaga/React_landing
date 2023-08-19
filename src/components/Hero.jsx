@@ -18,8 +18,8 @@ const Hero = () => {
             className="w-[32px] h-[32px] text-green"
           />
           <p className={`${styles.paragraph} ml-1`}>
-            <span className="text-white">20%</span> Descuento en{" "}
-            <span className="text-white"> Asistencia Remota</span>
+            <span className="text-white">10%</span> Descuento en{" "}
+            <span className="text-white"> tu primera instalación</span>
           </p>
         </div>
 
@@ -28,9 +28,9 @@ const Hero = () => {
             className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] 
           text-white ss:leading-[100.8px] leading-[75px]"
           >
-            El exíto
+            Seguridad
             <br className="sm:block hidden" />{" "}
-            <span className="text-gradient">Radica</span>{" "}
+            <span className="text-gradient">SIN PAGOS</span>{" "}
           </h1>
           <div className="ss:flex hidden md:mr-4 mr-0">
             <GetStarted />
@@ -40,11 +40,13 @@ const Hero = () => {
           className="font-poppins font-semibold ss:text-[68px] text-[52px]
          text-white ss:leading-[100.8px] leading-[75px] w-full"
         >
-          en la dedicacíon.
+          mensuales.
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Nuestro enfoque se basa en comprender las necesidades y ofrecer
-          soluciones a medida, que realmente marquen la diferencia.
+          Nuestras cámarás de vigilancia, te ofrecen protección, control y
+          tranquilidad.
+          <br />
+          Contactanos hoy y obten un sistema a medida sin costos extras.
         </p>
       </div>
       <div

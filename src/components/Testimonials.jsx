@@ -15,9 +15,10 @@ const Testimonials = () => (
       </h2>
       <div className="w-full md:mt-0 mt-6">
         <p className={`${styles.paragraph} text-left max-w-[450px]`}>
-          Ofrecen soluciones integrales con un servicio postventa genial!,
-          tienen un enfoque con el medio ambiente y social, además de colaborar
-          en proyectos municipales, brindan lo mejor, a un bajo costo.
+          Ofrecen soluciones integrales con un servicio postventa genial!
+          <br />
+          Tienen un enfoque con el medio ambiente, social y además colaboran en
+          proyectos municipales, brindan lo mejor, a un bajo costo.
         </p>
       </div>
     </div>
