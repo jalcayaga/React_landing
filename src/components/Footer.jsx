@@ -12,7 +12,7 @@ const Footer = () => (
           className="w-[266px] h-[104px] object-contain"
         />
         <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>
-          Desde código a cámaras, tejemos protección a medida. <br />
+          Desde código de programacion a cámaras, tenemos protección a medida. <br />
           Tu seguridad, nuestra pasión.
         </p>
       </div>
@@ -30,7 +30,8 @@ const Footer = () => (
               {footerlink.links.map((link, index) => (
                 <li
                   key={link.name}
-                  className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ${
+                  className={`font-poppins font-normal text-[16px] 
+                              leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ${
                     index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"
                   }`}
                 >

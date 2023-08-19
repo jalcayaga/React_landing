@@ -1,5 +1,5 @@
 import styles from "../style";
-import { discount, robot } from "../assets";
+import { discount, robot, robot1 } from "../assets";
 import GetStarted from "./GetStarted";
 
 const Hero = () => {
@@ -28,7 +28,7 @@ const Hero = () => {
             className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] 
           text-white ss:leading-[100.8px] leading-[75px]"
           >
-            El exíto
+            El Exito
             <br className="sm:block hidden" />{" "}
             <span className="text-gradient">Radica</span>{" "}
           </h1>
@@ -40,7 +40,7 @@ const Hero = () => {
           className="font-poppins font-semibold ss:text-[68px] text-[52px]
          text-white ss:leading-[100.8px] leading-[75px] w-full"
         >
-          en la dedicacíon.
+          en la dedicacion.
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           Nuestro enfoque se basa en comprender las necesidades y ofrecer
@@ -51,9 +51,9 @@ const Hero = () => {
         className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
       >
         <img
-          src={robot}
+          src={robot1}
           alt="billing"
-          className="w-[100%] h-[100%] relative z-[5]"
+          className="w-[100%] h-[100%] flex relative z-[5]"
         />
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient"></div>
         <div className="absolute z-[1] w-[80%] h-[80%] rounded-full bottom-40 white-gradient"></div>

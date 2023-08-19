@@ -1,4 +1,4 @@
-import { apple, bill, google } from "../assets";
+import { apple, bill, google, img1React } from "../assets";
 import styles, { layout } from "../style";
 
 const Billing = () => (
@@ -8,9 +8,9 @@ const Billing = () => (
   >
     <div className={layout.sectionImgReverse}>
       <img
-        src={bill}
+        src={img1React}
         alt="billing"
-        className="w-[100%] h-[100%] relative z-[5]"
+        className="w-[120%] h-[100%] relative z-[5]"
       />
 
       {/* gradient start */}
