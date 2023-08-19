@@ -25,6 +25,7 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 import robot1 from "./robot1.png";
 import img1React from "./img1React.png";
+import axpro from "./axpro.png";
 
 export {
   airbnb,
@@ -54,4 +55,5 @@ export {
   people03,
   robot1,
   img1React,
+  axpro,
 };

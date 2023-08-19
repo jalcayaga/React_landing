@@ -22,16 +22,17 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "alarmas",
-    title: "Alarmas",
-  },
-  {
     id: "CCTV",
     title: "Cámaras",
+    
+  },
+  { 
+    id: "alarmas",
+    title: "Alarmas", 
   },
   {
-    id: "red",
-    title: "Redes",
+    id: "software",
+    title: "Software",
   },
   {
     id: "Blog",
@@ -45,7 +46,7 @@ export const features = [
     icon: star,
     title: "Seguridad Completa",
     content:
-      "Tu hogar y comunidad están en buenas manos. Implementamos medidas proactivas para proteger lo que más amas, brindándote tranquilidad las 24 horas del día.",
+      "Tu hogar y comunidad están en buenas manos. Implementamos medidas proactivas para proteger lo que más amas, brindándote tranquilidad las 24 horas del día y grabacion continua de tu sistema de camaras.",
   },
   {
     id: "feature-2",
@@ -66,24 +67,21 @@ export const features = [
 export const feedback = [
   {
     id: "feedback-1",
-    content:
-      "Desde que instalamos su sistema de cámaras, nuestra tranquilidad se ha multiplicado..🥰",
+    content: "Desde que instalamos su sistema de cámaras, nuestra tranquilidad se ha multiplicado. Todos mis vecinos quieren!!",
     name: "María Rodríguez",
     title: "Cliente particular",
     img: people01,
   },
   {
     id: "feedback-2",
-    content:
-      "La alarma que nos proporcionaron brinda seguridad y paz mental, permitiéndonos 😴 sin preocupaciones.",
+    content: "La alarma que nos proporcionaron brinda seguridad y paz mental, permitiéndonos dormir sin preocupaciones.",
     name: "Juan Pérez",
     title: "Vecino Villa Wilson",
     img: people02,
   },
   {
     id: "feedback-3",
-    content:
-      "Gracias 🙏 al software a medida que implementaron, nuestra empresa es más eficiente y productiva ✔",
+    content: "Gracias 🙏 al software a medida que implementaron, nuestra empresa es más eficiente y productiva ✔",
     name: "Luis González",
     title: "TI Manager",
     img: people03,
@@ -94,7 +92,7 @@ export const stats = [
   {
     id: "stats-1",
     title: "Clientes Felices",
-    value: "28000+",
+    value: "28300+",
   },
   {
     id: "stats-2",
@@ -104,7 +102,7 @@ export const stats = [
   {
     id: "stats-3",
     title: "Cámaras Instaladas",
-    value: "5000+",
+    value: "5200+",
   },
 ];
 

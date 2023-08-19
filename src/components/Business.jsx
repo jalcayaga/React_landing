@@ -1,4 +1,5 @@
 import { features } from "../constants";
+import { logo, axpro } from "../assets";
 import styles, { layout } from "../style";
 import Button from "./Button";
 
@@ -34,10 +35,16 @@ const Business = () => (
     className={layout.section}
   >
     <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>
+    <img
+          src={axpro}
+          alt="billing"
+          className="w-[100%] h-[70%] flex relative z-[5]"
+        />
+       
+      {/* <h2 className={styles.heading2}>
         Deja la seguridad
         <br className="sm:block hidden" /> en nuestras manos.
-      </h2>
+      </h2> */}
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         Con nuestro avanzado sistema de alarmas, podrás cuidar de tu hogar o
         comunidad como nunca antes. Obtén la paz mental que mereces al proteger
