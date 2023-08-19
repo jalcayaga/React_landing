@@ -29,7 +29,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
   </div>
 );
 
-const Business = () => (
+const Alarm = () => (
   <section
     id="features"
     className={layout.section}
@@ -45,7 +45,9 @@ const Business = () => (
         className="w-[100%] h-[40%]"
       />
 
-      <Button styles={`mt-10 flexCenter`} />
+      <div className={`flexCenter `}>
+        <Button styles={`mt-10`} />
+      </div>
     </div>
 
     <div className={`${layout.sectionImg} flex-col`}>
@@ -60,4 +62,4 @@ const Business = () => (
   </section>
 );
 
-export default Business;
+export default Alarm;

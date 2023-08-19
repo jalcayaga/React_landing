@@ -2,7 +2,7 @@ import styles from "../style";
 import { arrowUp } from "../assets";
 
 const GetStarted = () => {
-  const whatsappNumber = "+56996985294"; // Reemplaza con tu número de WhatsApp
+  const whatsappNumber = "+56939463077"; // Reemplaza con tu número de WhatsApp
 
   const openWhatsAppChat = () => {
     const whatsappURL = `https://wa.me/${whatsappNumber}`;

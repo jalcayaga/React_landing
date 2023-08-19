@@ -73,7 +73,7 @@ export const feedback = [
     id: "feedback-2",
     content:
       "La alarma que nos proporcionaron brinda seguridad y paz mental, permitiéndonos 😴 sin preocupaciones.",
-    name: "Juan Pérez",
+    name: "Ricardo Pérez",
     title: "Vecino Villa Wilson",
     img: people02,
   },
