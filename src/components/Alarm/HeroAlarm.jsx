@@ -1,15 +1,18 @@
-import styles from "../style";
-import { discount, robot, robot1 } from "../assets";
-import GetStarted from "./GetStarted";
+import React from "react";
+import styles from "../../style";
+import { discount, robot1 } from "../../assets";
+import GetStarted from "../GetStarted";
+import GetStartedAlarm from "../../components/Alarm/GetStartedAlarm"; // Importa el componente GetStartedAlarm
 import { motion } from "framer-motion";
 
-const Hero = () => {
+
+const HeroAlarm = () => {
   return (
     <motion.section
       // ________________________________
-      initial={{ opacity: 20, scale: 1.8}}
-      animate={{ opacity: 3, scale: 1 }}
-      transition={{ duration: 0.6}}
+      initial={{ opacity: 1, scale: 0,  }}
+      animate={{ opacity: 5, scale: 1 , }}
+      transition={{ duration: 1}}
       // ________________________________
       id="home"
       className={`flex md:flex-row flex-col ${styles.paddingY}`}
@@ -34,24 +37,27 @@ const Hero = () => {
             className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] 
           text-white ss:leading-[100.8px] leading-[75px]"
           >
-            Seguridad 
+            Contamos con 
             <br className="sm:block hidden" />{" "}
-            <span className="text-gradient">Sin pagos </span>{" "}
+            <span className="text-yell">Alarmas Gsm/Wifi. </span>{" "}
           </h1>
           <div className="ss:flex hidden md:mr-4 mr-0">
-            <GetStarted />
+
+            <GetStartedAlarm />
           </div>
         </div>
         <h1
           className="font-poppins font-semibold ss:text-[68px] text-[52px]
          text-white ss:leading-[100.8px] leading-[75px] w-full"
         >
-          mensuales.
+          Obten el control de tu hogar
         </h1>
         <p className={`${styles.paragraph} max-w-[600px] mt-5`}>
-           Nuestras cámaras de vigilancia te ofrecen protección, control y tranquilidad.
-           <br /> 
-               Contactanos hoy y obtén un sistema a medida sin costos extras.
+           Nuestras Alarmas de seguridad, tanto para hogar o empresas, ofrecen los mas altos estandares de calidad
+           y monitoreo para notificarte ante posibles accesos no autorizados.
+           <br/> 
+           <br/> 
+               <p className="text-[20px]">Contactanos hoy y obtén tu sistema a medida sin costos extras mensuales</p>
         </p>
       </div>
       <div
@@ -59,9 +65,8 @@ const Hero = () => {
       >
         <motion.img
           // animate={{ x: [null, 100, 0] }}
-          whileHover={{ scale: 1.1 }}
-          
-
+          whileHover={{ scale: 1.1 , rotateZ: 3, }}
+    
           src={robot1}
           alt="billing"
           className="w-[100%] h-[100%] flex relative z-[5]"
@@ -71,10 +76,10 @@ const Hero = () => {
         <div className="absolute z-[0] w-[50%] h-[50%] bottom-20 blue__gradient"></div>
       </div>
       <div className={`ss:hidden ${styles.flexCenter}`}>
-        <GetStarted />
+      <GetStarted />
       </div>
     </motion.section>
   );
 };
 
-export default Hero;
+export default HeroAlarm;

@@ -18,22 +18,19 @@ import {
 /* color #84bd00 */
 export const navLinks = [
   {
-    id: "home",
+    id: "/",
     title: "Home",
   },
   {
-    id: "CCTV",
+    id: "camara",
     title: "Cámaras",
     
   },
   { 
-    id: "alarmas",
+    id: "alarma",
     title: "Alarmas", 
   },
-  {
-    id: "software",
-    title: "Software",
-  },
+  
   {
     id: "Blog",
     title: "Blog",
@@ -64,6 +61,30 @@ export const features = [
   },
 ];
 
+
+export const featuresAlarm = [
+  {
+    id: "feature-1",
+    icon: star,
+    title: "Amplia Cobertura en Seguridad",
+    content:
+      "Ten el control absoluto en todo momento. Activa y desactiva tu alarma donde estes a través del celular.",
+  },
+  {
+    id: "feature-2",
+    icon: shield,
+    title: "Tranquilidad para ti y tu Familia",
+    content:
+      "Somos una empresa comprometida con la seguridad de tu hogar o negocio. Te asesoramos en todo el proceso para que obtengas la mayor calidad tecnica posible y lograr cubrir todos los puntos criticos "
+  },
+  {
+    id: "feature-3",
+    icon: send,
+    title: "Alertas Inmediatas",
+    content:
+      "Recibe notificaciones instantáneas ante cualquier actividad sospechosa. Nuestro sistema de alarma te mantiene informado para que puedas tomar medidas rápidas y eficaces.",
+  },
+];
 export const feedback = [
   {
     id: "feedback-1",
@@ -84,6 +105,13 @@ export const feedback = [
     content: "Gracias 🙏 al software a medida que implementaron, nuestra empresa es más eficiente y productiva ✔",
     name: "Luis González",
     title: "TI Manager",
+    img: people03,
+  },
+  {
+    id: "feedback-3",
+    content: "Lograron solucionar un problematica en nuestra empresa, ofreciendo servicio de calidad post instalacion y asesoramiento continuo",
+    name: "Jose Romanini",
+    title: "Ingeniero ITO",
     img: people03,
   },
 ];

@@ -1,4 +1,5 @@
-import styles from "./style";
+import styles from "../style";
+
 import {
   Billing,
   Business,
@@ -9,13 +10,14 @@ import {
   Stats,
   Testimonials,
   Hero,
-} from "./components";
+} from "../components";
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Navbar />
+      
       </div>
     </div>
 

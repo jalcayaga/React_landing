@@ -1,9 +1,16 @@
 import { feedback } from "../constants";
 import styles from "../style";
 import FeedbackCard from "./FeedbackCard";
+import { motion } from "framer-motion";
 
 const Testimonials = () => (
-  <section
+  <motion.section
+    initial={{ opacity: 0 }}
+    whileInView={{ opacity: 1 }}
+    transition={{ duration: 1}}
+    viewport={{ once: true }}
+    // ________________________________
+    // 
     id="clients"
     className={`${styles.paddingY} ${styles.flexCenter} flex-col relative `}
   >
@@ -13,13 +20,13 @@ const Testimonials = () => (
       <h2 className={styles.heading2}>
         Lo que dicen <br className="sm:block hidden" /> sobre nosotros:
       </h2>
-      <div className="w-full md:mt-0 mt-6">
+      {/* <div className="w-full md:mt-0 mt-6">
         <p className={`${styles.paragraph} text-left max-w-[450px]`}>
           Ofrecen soluciones integrales con un servicio postventa genial!,
           tienen un enfoque con el medio ambiente y social, además de colaborar
           en proyectos municipales, brindan lo mejor, a un bajo costo.
         </p>
-      </div>
+      </div> */}
     </div>
 
     <div className="flex flex-wrap sm:justify-start justify-center w-full 
@@ -31,7 +38,7 @@ const Testimonials = () => (
         />
       ))}
     </div>
-  </section>
+  </motion.section>
 );
 
 export default Testimonials;

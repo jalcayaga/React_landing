@@ -7,6 +7,13 @@ import Stats from "./Stats";
 import Footer from "./Footer";
 import Testimonials from "./Testimonials";
 import Hero from "./Hero";
+import CamInfo from "./CamInfo";
+import Slider from "./Slider";
+import HeroAlarm from "./Alarm/HeroAlarm";
+import CTAalarm from "./Alarm/CTAalarm";
+import GetStartedAlarm from "./Alarm/GetStartedAlarm";
+import BusinessAlarm from "./Alarm/BusinessAlarm";
+import HorizontalCard from "../components/Alarm/HorizontalCard";
 
 export {
   Navbar,
@@ -18,4 +25,11 @@ export {
   Footer,
   Testimonials,
   Hero,
-};
+  CamInfo,
+  Slider,
+  HeroAlarm,
+  CTAalarm,
+  GetStartedAlarm,
+  BusinessAlarm,
+  HorizontalCard
+}
